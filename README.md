@@ -10,5 +10,5 @@ In the code we present the probability assignment, the removal process and the c
 
 <figure>
   <img src="./images/1.jpg" alt="1">
-  <figcaption>Figure 1:  Relative size of the largest cluster S during the entire removal process for the two models as a variation of the removal reduction rate between the two zones, for networks with <k> = 20 and N = 10000. For r=0 the two models are the same. </figcaption>
+  <figcaption>Figure 1:  Relative size of the largest cluster S during the entire removal process for the two models as a variation of the removal reduction rate between the two zones, for networks with average k equal to 20 and N = 10000. For r=0 the two models are the same. </figcaption>
 </figure>
