@@ -9,6 +9,6 @@ The logic basis of the second model (k - sorted) is similar. The difference is t
 In the code we present the probability assignment, the removal process and the calculation of critical values for each model, such as the distribution of clusters and the relative size of the largest cluster. If you use this code or find the models relevant to your research, please cite our work https://www.mdpi.com/1099-4300/24/8/1069 where we compare and analyze the models in detail.
 
 <figure>
-  <img src="./images/1.jpg" alt="1">
+  <img src="./images/1.png" alt="1">
   <figcaption>Figure 1:  Relative size of the largest cluster S during the entire removal process for the two models as a variation of the removal reduction rate between the two zones, for networks with average k equal to 20 and N = 10000. For r=0 the two models are the same. </figcaption>
 </figure>
