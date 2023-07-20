@@ -2,7 +2,7 @@
 
 In this project we investigate the effect of tumor hypoxia in the resilience of a tumor network under radiochemotherapy. Two models were created, which performed targeted attack in the nodes of an Erdős–Rényi random network, utilizing the concept that the nodes close to the center of the tumor will be less probable to be removed due to hypoxia. 
 
-The first model (k - shell), utilizes the idea that the nodes of the network with higher k-shells are close to the center of the network. Thus, after calculating the k-shells of each network, we divide the nodes of the network to two zones. We assume that the nodes of the last k-shell (the nucleous) will belong to 1st zone while the rest of the nodes to the other zone. Then we assign different removal probabilities. The nodes of the external zone will always have removal probability equal to 1, while the nodes of the internal zone will be a parameter of the model.
+The first model (k - shell), relies on the concept that the nodes of the network with higher k-shells are close to the center of the network. Thus, after calculating the k-shells of each network, we divide the nodes of the network to two zones. We assume that the nodes of the last k-shell (the nucleous) will belong to 1st zone while the rest of the nodes to the other zone. Then we assign different removal probabilities. The nodes of the external zone will always have removal probability equal to 1, while the nodes of the internal zone will be a parameter of the model.
 
 The logic basis of the second model (k - sorted) is similar. The difference is that we sort the nodes based on their degree connectivity and then assign half of the highest degree nodes to the internal zone and the rest to the external.  
 
